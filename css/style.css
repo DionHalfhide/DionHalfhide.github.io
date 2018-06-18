@@ -1,0 +1,1494 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+}
+#nava {
+    z-index: 99;
+    text-align: center;
+    width: 100%;
+}
+.active a {
+    font-size: 16px;
+    text-decoration-color: orange;
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+
+}
+ul {
+    margin-top: -10%;
+    list-style-type: none;
+    z-index: 99;
+    position: fixed;
+    height: 55px;
+    text-align: center;
+    width: 100%;
+}
+#shit {
+    position: absolute;
+    transition: all 0.7s;
+    margin-top: 0vh;
+}
+li {
+    display: inline-block;
+}
+li a {
+    text-align: center;
+    width: 100%;
+    letter-spacing: 3PX;
+    font-family: 'Orbitron', sans-serif;
+    padding: 0 20px;
+    text-decoration: none;
+    overflow: hidden;
+    color: #d1d1d1;
+    font-size: 12px;
+    transition: all 0.4s;
+}
+#a,
+#b,
+#c {
+    border-right: 1px solid #ffa600;
+}
+#home {
+    border-right: 1px solid orange;
+}
+.nav-item a,
+#wie h1 {
+
+    color: lightgray;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient( to right,
+    orange,
+    orange 50%,
+    lightgray 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+.nav-item a:hover,
+#wie h1:hover {
+    transition: all 1.0s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
+}
+#messenger {
+    color: orange;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+    white-space: nowrap;
+    text-shadow: 0 2px 2px rgba(#000, 0.9);
+}
+#messengerr {
+    color: orange;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    white-space: nowrap;
+    text-shadow: 0 2px 2px rgba(#000, 0.9);
+}
+#messengerrr {
+
+    color: orange;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    white-space: nowrap;
+    text-shadow: 0 2px 2px rgba(#000, 0.9);
+}
+#homet h1,
+#homet h2,
+#homet h4 {
+
+    color: lightgray;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient( to right,
+    orange,
+    orange 50%,
+    lightgray 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+#homet h1:hover,
+#homet h2:hover,
+#homet h4:hover {
+    transition: all 1.0s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
+}
+#toppic {
+    z-index: -1;
+    width: 100%;
+    background-image: url('../img/nieue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+* {
+    box-sizing: border-box;
+}
+/*----------------resposive--------------------*/
+@media only screen and (max-width: 460px) {
+   
+      body {
+        overflow: inherit;
+    }
+    #pro1 img {
+        display: block;
+        width: 100%;
+        height: 25vh;
+    }
+    #scrollshit {
+        display: inherit;
+    }
+    #progrid {
+        grid-auto-rows: 250px;
+    }
+    #wie {
+        letter-spacing: 2px;
+        line-height: 22px;
+        border-top: 1px solid orange;
+    }
+    #info {
+        display: grid;
+        grid-template-columns: 4fr;
+        padding-top: 5vh;
+        width: 80%;
+        margin-left: 10%;
+    }
+    #mij img {
+        margin-top: 10%;
+        display: block;
+        height: 32vh;
+        z-index: 99;
+        width: 100%;
+    }
+    #nava {
+        display: none;
+    }
+    #who,
+    #com,
+    #pro,
+    #conta {
+        height: auto;
+        margin-bottom: 15vh;
+    }
+    #progrid {
+        width: 60%;
+        margin-left: 20%;
+        grid-gap: 50px;
+        padding-top: 20vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #nog1 {
+        width: 100%;
+        top: 30vh;
+       
+        grid-template-columns: 1fr;
+    }
+    #scrollshit {
+        display: inherit;
+    }
+    .super {
+        margin-top: 10vh;
+        margin-left: 3vw;
+    }
+    #lijn3 H1 {
+        position: absolute;
+        margin-top: 20%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #lijn33 H1 {
+        position: absolute;
+        padding-top: 10%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #lijn333 H1 {
+        position: absolute;
+        padding-top: 0%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #lijn3333 H1 {
+        position: absolute;
+        margin-top: 0%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #griddd,
+    #gridd2 {
+        width: 90%;
+        margin-left: 5%;
+
+    }
+    .logos,
+    .logos2 {
+        border-bottom: 1px solid orange;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .logos a,
+    .logos2 a {
+        display: inline-block;
+        margin-bottom: 0%;
+        margin-top: 0%;
+
+    }
+#mij {
+    position: relative;
+    height: 40vh;
+}
+#messenger {
+    font-size: 57px;
+    letter-spacing: 10px; 
+}
+#messengerr {
+    font-size: 51px;
+    letter-spacing: 7px;
+}
+#messengerrr {
+   letter-spacing: 1px;
+    font-size: 12px;
+}
+}
+@media only screen and (min-width: 461px) and (max-width:674px) {
+    body {
+        overflow: inherit;
+    }
+    #pro1 img {
+        display: block;
+        width: 100%;
+        height: 33vh;
+    }
+    #scrollshit {
+        display: inherit;
+    }
+    #progrid {
+        grid-auto-rows: 250px;
+    }
+    #wie {
+        letter-spacing: 2px;
+        line-height: 22px;
+        border-top: 1px solid orange;
+    }
+    #info {
+        display: grid;
+        grid-template-columns: 4fr;
+        padding-top: 5vh;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    #mij img {
+        padding-top: 5%;
+        display: block;
+        height: 37vh;
+        z-index: 99;
+        width: 100%;
+    }
+    #nava {
+        display: none;
+    }
+    #who,
+    #com,
+    #pro,
+    #conta {
+        height: auto;
+        margin-bottom: 15vh;
+    }
+    #progrid {
+        width: 60%;
+        margin-left: 20%;
+        grid-gap: 50px;
+        padding-top: 20vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #nog1 {
+        width: 80%;
+        top: 30vh;
+        margin-left: 20%;
+        grid-template-columns: 1fr;
+    }
+    #scrollshit {
+        display: inherit;
+    }
+    .super {
+        margin-top: 10vh;
+        margin-left: 3vw;
+    }
+    #lijn3 H1 {
+        position: absolute;
+        margin-top: 20%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #lijn33 H1 {
+        position: absolute;
+        padding-top: 10%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #lijn333 H1 {
+        position: absolute;
+        padding-top: 0%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #lijn3333 H1 {
+        position: absolute;
+        margin-top: 0%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #griddd,
+    #gridd2 {
+        width: 90%;
+        margin-left: 5%;
+
+    }
+    .logos,
+    .logos2 {
+        border-bottom: 1px solid orange;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .logos a,
+    .logos2 a {
+        display: inline-block;
+        margin-bottom: 0%;
+        margin-top: 0%;
+
+    }
+#mij {
+    position: relative;
+    height: 40vh;
+}
+#messenger {
+    font-size: 57px;
+    letter-spacing: 10px; 
+}
+#messengerr {
+    font-size: 51px;
+    letter-spacing: 7px;
+}
+#messengerrr {
+   letter-spacing: 1px;
+    font-size: 12px;
+}
+}
+@media only screen and (min-width: 675px) and (max-width:854px) {
+    body {
+        overflow: inherit;
+    }
+    #pro1 img {
+        display: block;
+        width: 100%;
+        height: 22vh;
+    }
+    #progrid {
+        grid-auto-rows: 250px;
+    }
+    #wie {
+        letter-spacing: 2px;
+        line-height: 22px;
+        border-top: 1px solid orange;
+    }
+    #info {
+        display: grid;
+        grid-template-columns: 4fr;
+        padding-top: 5vh;
+        width: 50%;
+        margin-left: 25%;
+    }
+    #mij img {
+        padding-top: 5%;
+        display: block;
+        height: 40vh;
+        z-index: 99;
+        width: 100%;
+
+
+    }
+    #nava {
+        display: none;
+    }
+    #who,
+    #com,
+    #pro,
+    #conta {
+        margin-bottom: 10VH;
+        height: auto;
+    }
+    
+#messenger {
+    font-size: 77px;
+    letter-spacing: 10px; 
+}
+#messengerr {
+    font-size: 71px;
+    letter-spacing: 7px;
+}
+#messengerrr {
+   letter-spacing: 1px;
+    font-size: 16px;
+}
+    #progrid {
+        width: 70%;
+        margin-left: 15%;
+        grid-gap: 50px;
+        padding-top: 20vh;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    #nog1 {
+        width: 50%;
+        top: 30vh;
+        margin-left: 25%;
+        grid-template-columns: 1fr;
+    }
+    #scrollshit {
+        display: inherit;
+    }
+    .super {
+        margin-top: 10vh;
+        margin-left: 3vw;
+    }
+
+    #lijn33 H1 {
+        position: absolute;
+        padding-top: 10%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #lijn3 H1 {
+        position: absolute;
+        MARGIN-top: 20%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #lijn333 H1 {
+        position: absolute;
+        padding-top: 0%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #lijn3333 H1 {
+        position: absolute;
+        margin-top: 0%;
+        text-decoration-color: orange;
+        text-decoration-line: underline;
+    }
+    #griddd,
+    #gridd2 {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .logos,
+    .logos2 {
+        border-bottom: 1px solid orange;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .logos a,
+    .logos2 a {
+        display: inline-block;
+        margin-bottom: 10%;
+        margin-top: 10%;
+
+    }
+
+    #mij {
+    position: relative;
+    height: 50vh;
+}
+}
+@media only screen and (min-width: 855px) and (max-width:1069px) {
+    body {
+        overflow: hidden;
+    }
+    #pro1 img {
+        display: block;
+        width: 100%;
+        height: 22vh;
+    }
+    #wie {
+        margin-top: -5%;
+        padding-bottom: 6%;
+        letter-spacing: 2px;
+        line-height: 22px;
+        margin-left: -13%;
+        padding-left: 11%;
+        border-left: 1px solid orange;
+    }
+    #progrid {
+        grid-auto-rows: 250px;
+    }
+    #info {
+        display: grid;
+        grid-template-columns: 4fr 1fr 4fr;
+        padding-top: 30vh;
+        width: 94%;
+        margin-left: 3%
+    }
+    #mij img {
+        display: block;
+        height: 45vh;
+        z-index: 99;
+        width: 100%;
+        margin-top: 15%;
+
+    }
+    #nava {
+        display: inherit;
+    }
+    #who,
+    #com,
+    #pro,
+    #conta {
+        height: 100vh;
+    }
+    #textsl {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #textsr {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #progrid {
+        width: 90%;
+        margin-left: 5%;
+        grid-gap: 50px;
+        padding-top: 20vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #nog1 {
+        width: 90%;
+        top: 30vh;
+        margin-left: 10%;
+        grid-template-columns: 1fr 1fr;
+    }
+    #scrollshit {
+        display: none;
+    }
+    .super {
+        margin-left: 10vw;
+    }
+    #lijn33 H1 {
+        display: none;
+    }
+    #lijn3 H1 {
+        display: none;
+    }
+    #lijn333 H1 {
+        display: none;
+    }
+    #lijn3333 H1 {
+        display: none;
+    }
+    #griddd,
+    #gridd2 {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .logos,
+    .logos2 {
+        border-bottom: 1px solid orange;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .logos a,
+    .logos2 a {
+        display: inline-block;
+        margin-bottom: 10%;
+        margin-top: 10%;
+
+    }
+    #mij {
+    position: relative;
+    height: 50vh;
+}
+#messenger {
+    font-size: 97px;
+    letter-spacing: 15px; 
+}
+#messengerr {
+    font-size: 91px;
+    letter-spacing: 7px;
+}
+#messengerrr {
+   letter-spacing: 3px;
+    font-size: 18px;
+}
+
+}
+@media only screen and (min-width: 1070px) and (max-width:1200px) {
+    body {
+        overflow: hidden;
+    }
+    #pro1 img {
+        display: block;
+        width: 100%;
+        height: 22vh;
+    }
+    #scrollshit {
+        display: none
+    }
+    #nava {
+        display: inherit;
+    }
+    #wie {
+        margin-top: -4%;
+        padding-bottom: 6%;
+        letter-spacing: 2px;
+        line-height: 22px;
+        margin-left: -13%;
+        padding-left: 11%;
+        border-left: 1px solid orange;
+    }
+    #info {
+        display: grid;
+        grid-template-columns: 2fr 1fr 4fr;
+        padding-top: 30vh;
+        width: 94%;
+        margin-left: 3%
+    }
+    #mij img {
+        display: block;
+        height: 50vh;
+        z-index: 99;
+    }
+    #who,
+    #com,
+    #pro,
+    #conta {
+        height: 100vh;
+    }
+    #textsl {
+        width: 100%;
+    }
+
+    #textsr {
+        width: 100%;
+    }
+    #com {
+        padding-top: -3%;
+    }
+    #progrid {
+        width: 70%;
+        margin-left: 15%;
+        grid-gap: 100px;
+        padding-top: 20vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #nog1 {
+        width: 70%;
+        top: 30vh;
+        margin-left: 15%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .super {
+        margin-left: 10vw;
+    }
+    #griddd,
+    #gridd2 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .logos,
+    .logos2 {
+        border-bottom: 1px solid orange;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .logos a,
+    .logos2 a {
+        display: inline-block;
+        margin-bottom: 10%;
+        margin-top: 10%;
+
+    }
+    #mij {
+    position: relative;
+    height: 50vh;
+}
+#messenger {
+    font-size: 97px;
+    letter-spacing: 15px; 
+}
+#messengerr {
+    font-size: 91px;
+    letter-spacing: 7px;
+}
+#messengerrr {
+   letter-spacing: 3px;
+    font-size: 18px;
+}
+     #lijn33 H1 {
+        display: none;
+    }
+    #lijn3 H1 {
+        display: none;
+    }
+    #lijn333 H1 {
+        display: none;
+    }
+    #lijn3333 H1 {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width:1450px) {
+    body {
+        overflow: hidden;
+    }
+    #pro1 img {
+        display: block;
+        width: 100%;
+        height: 22vh;
+    }
+    #scrollshit {
+        display: none;
+    }
+    #progrid {
+        width: 70%;
+        margin-left: 15%;
+        grid-gap: 100px;
+        padding-top: 20vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #wie {
+        margin-top: -4%;
+        padding-bottom: 6%;
+        letter-spacing: 2px;
+        line-height: 22px;
+        margin-left: -13%;
+        padding-left: 11%;
+        border-left: 1px solid orange;
+    }
+     #lijn33 H1 {
+        display: none;
+    }
+    #lijn3 H1 {
+        display: none;
+    }
+    #lijn333 H1 {
+        display: none;
+    }
+    #lijn3333 H1 {
+        display: none;
+    }
+    #info {
+        display: grid;
+        grid-template-columns: 4fr 1fr 4fr;
+        padding-top: 30vh;
+        width: 80%;
+        margin-left: 10%
+    }
+    #mij img {
+        display: block;
+        height: 50vh;
+        z-index: 99;
+    }
+    #nog1 {
+        width: 70%;
+        top: 30vh;
+        margin-left: 15%;
+        grid-template-columns: 1fr 1fr;
+    }
+    #who,
+    #com,
+    #pro,
+    #conta {
+        height: 100vh;
+    }
+    #textsl {
+        width: 70%;
+        margin-left: 15%;
+
+    }
+
+    #textsr {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .super {
+        margin-left: 10vw;
+    }
+    #griddd,
+    #gridd2 {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .logos,
+    .logos2 {
+        border-bottom: 1px solid orange;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .logos a,
+    .logos2 a {
+        display: inline-block;
+        margin-bottom: 10%;
+        margin-top: 10%;
+
+    }
+    #mij {
+    position: relative;
+    height: 50vh;
+}
+#messenger {
+    font-size: 97px;
+    letter-spacing: 15px; 
+}
+#messengerr {
+    font-size: 91px;
+    letter-spacing: 7px;
+}
+#messengerrr {
+   letter-spacing: 3px;
+    font-size: 18px;
+}
+}
+@media only screen and (min-width: 1451px) {
+        body {
+        overflow: hidden;
+    }
+    #pro1 img {
+        display: block;
+        width: 100%;
+        height: 22vh;
+    }
+    #scrollshit {
+        display: none;
+    }
+    #progrid {
+        width: 70%;
+        margin-left: 15%;
+        grid-gap: 100px;
+        padding-top: 10vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #wie {
+        margin-top: -4%;
+        padding-bottom: 6%;
+        letter-spacing: 2px;
+        line-height: 22px;
+        margin-left: -13%;
+        padding-left: 11%;
+        border-left: 1px solid orange;
+    }
+     #lijn33 H1 {
+        display: none;
+    }
+    #lijn3 H1 {
+        display: none;
+    }
+    #lijn333 H1 {
+        display: none;
+    }
+    #lijn3333 H1 {
+        display: none;
+    }
+    #info {
+        display: grid;
+        grid-template-columns: 4fr 1fr 4fr;
+        padding-top: 30vh;
+        width: 80%;
+        margin-left: 10%
+    }
+    #mij img {
+        display: block;
+        height: 50vh;
+        z-index: 99;
+    }
+    #nog1 {
+        width: 70%;
+        top: 30vh;
+        margin-left: 15%;
+        grid-template-columns: 1fr 1fr;
+    }
+    #who,
+    #com,
+    #pro,
+    #conta {
+        height: 100vh;
+    }
+    #textsl {
+        width: 70%;
+        margin-left: 15%;
+
+    }
+
+    #textsr {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .super {
+        margin-left: 10vw;
+    }
+    #griddd,
+    #gridd2 {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .logos,
+    .logos2 {
+        border-bottom: 1px solid orange;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .logos a,
+    .logos2 a {
+        display: inline-block;
+        margin-bottom: 10%;
+        margin-top: 10%;
+
+    }
+    #mij {
+    position: relative;
+    height: 50vh;
+}
+#messenger {
+    font-size: 97px;
+    letter-spacing: 15px; 
+}
+#messengerr {
+    font-size: 91px;
+    letter-spacing: 7px;
+}
+#messengerrr {
+   letter-spacing: 3px;
+    font-size: 18px;
+}
+}
+}
+#wie h1 {
+    font-size: 24px;
+}
+#wie {
+    text-align: left;
+    color: lightgray;
+}
+#scrollshit {
+    padding-top: 30vh;
+}
+#homet {
+    width: 100%;
+    text-align: center;
+    color: orange;
+    text-align: center;
+    padding-top: 20vh;
+    position: relative;
+}
+#lijn3 H1,
+#lijn33 H1,
+#lijn333 h1,
+#lijn3333 h1 {
+    letter-spacing: 2px;
+    color: white;
+    background-color: orange;
+    padding: 10px 10px;
+}
+#homet h1 {
+    font-weight: bold;
+    font-size: 79px;
+    letter-spacing: 13.5px;
+}
+#homet h2 {
+    font-weight: 100;
+    font-size: 61px;
+    letter-spacing: 6.5px;
+}
+#homet h4 {
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.over {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(211, 211, 211, 0.40);
+}
+#mij:hover .over {
+    opacity: 1;
+}
+#nog1 {
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+    display: grid;
+}
+.textx {
+    letter-spacing: 4px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+#griddd {
+    padding-top: 15vh;
+}
+#gridd2 {
+    padding-top: 5vh
+}
+#griddd h1,
+#gridd2 h1 {
+    text-align: center;
+    color: orange;
+    letter-spacing: 2px;
+}
+.itemxm img {
+    text-align: center;
+    display: inline-block;
+    height: 10vh;
+
+}
+.itemxm a {
+    text-align: center;
+    width: 100%;
+}
+.logos2 img {
+    height: 9vh;
+    margin-top: 5%;
+    text-align: center;
+}
+#textsl {
+
+    color: lightgray;
+    letter-spacing: 2px;
+    line-height: 22px;
+    text-align: center;
+}
+#textsr {
+
+    text-align: center;
+    color: lightgray;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+#pro1 {
+    position: relative;
+    height: 30vh;
+}
+#pro1 img:hover,
+#pro2 img:hover {
+    transition: all 1.0s;
+}
+.text {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text h1 {
+    letter-spacing: 2px;
+    transition: all 0.5s;
+    font-size: 16px;
+    border: 3px solid white;
+    padding: 10px 20px;
+}
+.text h1:hover {
+    background-color: white;
+    color: orange;
+    border: 3px solid orange;
+    font-weight: bold;
+}
+.overlay,
+#overlayy {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 22vh;
+    width: 100%;
+    opacity: 0;
+    transition: .8s ease;
+    background-color: orange;
+}
+#overlayy {
+    border-bottom-left-radius: 45%;
+}
+#pro1:hover .overlay,
+#pro2:hover .overlay,
+#pro1:hover #overlayy {
+    opacity: 1;
+    transition: all 1.2s;
+}
+.lyn {
+    padding-top: 5%;
+    width: 40%;
+    border-bottom: 1px solid orange;
+    margin-left: 30%
+}
+#pro2 img {
+    width: 100%;
+    height: 22vh;
+}
+#pro2 {
+    height: 30vh;
+}
+#pro1 h5,
+#pro2 h5 {
+    line-height: 20px;
+    text-align: center;
+    color: lightgray;
+    letter-spacing: 2px;
+}
+.lijn {
+    padding: 10px 0px 10px 0px;
+}
+input #button {
+    color: orange;
+    font-size: 12px;
+}
+#cater h1 {
+    color: orange;
+}
+#pics {
+    margin-top: 50vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+#p {
+    display: inline-block;
+}
+#supergrid {
+    padding-left: 5%;
+}
+.super {
+    text-align: left;
+
+}
+.f2 {
+    transition: all 1.0s;
+}
+.f2 h5 {
+    letter-spacing: 2px;
+    color: orange;
+}
+.f2 h1 {
+    color: orange;
+    letter-spacing: 2px;
+}
+.f2 a {
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: lightgray;
+    text-decoration: none;
+
+}
+#m p {
+    color: lightgray;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+#s > a,
+#m > a {
+    position: relative;
+    margin-bottom: 15px;
+    display: inline-block;
+    transition: all 1.5s;
+    text-decoration-line: none;
+}
+#s > a:before,
+#m > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: orange;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+#s > a:hover:before,
+#m > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+/*
+
+#m a, #p a {
+
+    color: lightgray;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient( to right,
+    orange,
+    orange 50%,
+    lightgray 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+
+#m a:hover, #p a:hover {
+    transition: all 0.7s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
+}*/
+/* form starting stylings ------------------------------- */
+.group {
+    position: relative;
+    margin-bottom: 45px;
+}
+#green input {
+    font-size: 12px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid orange;
+    color: orange;
+}
+#green h1 {
+    letter-spacing: 2.5px;
+}
+#cont {
+    letter-spacing: 1px;
+    font-family: 'Orbitron', sans-serif;
+}
+input:focus {
+    outline: none;
+}
+label {
+    color: lightgray;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.3s ease all;
+
+}
+/* active state */
+input:focus ~ label,
+input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: orange;
+}
+/* BOTTOM BARS ================================= */
+.bar {
+    position: relative;
+    display: block;
+    width: 300px;
+}
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: orange;
+    transition: 0.3s ease all;
+}
+.bar:before {
+    left: 50%;
+}
+.bar:after {
+    right: 50%;
+}
+/* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+    width: 50%;
+}
+/* HIGHLIGHTER ================================== */
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+/* active state */
+input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.4s ease;
+    -moz-animation: inputHighlighter 0.4s ease;
+    animation: inputHighlighter 0.4s ease;
+}
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: orange;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+@-moz-keyframes inputHighlighter {
+    from {
+        background: orange;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+@keyframes inputHighlighter {
+    from {
+        background: orange;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+@-webkit-keyframes ani-mouse {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+@-moz-keyframes ani-mouse {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+@keyframes ani-mouse {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+#muis p {
+    margin-left: -55px;
+}
+.scroll-btn {
+
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 13vh;
+    text-align: center;
+}
+.scroll-btn > * {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: normal;
+    color: orange;
+    color: orange;
+    font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+    letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+    color: #ffffff;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 55px;
+    margin: 0 auto 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid orange;
+    border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+    position: absolute;
+    display: block;
+    top: 59%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    margin: 4px 0 0 -4px;
+    background: orange;
+    border-radius: 50%;
+    -webkit-animation: ani-mouse 2.5s linear infinite;
+    -moz-animation: ani-mouse 2.5s linear infinite;
+    animation: ani-mouse 2.5s linear infinite;
+}
